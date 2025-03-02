@@ -1,0 +1,24 @@
+[
+    {
+      "role": "5 Star⭐",
+      "organisation": "Codechef",
+      "endDate": "Present",
+      "experiences": ["Ranked Top 1% of all active Coders in India"],
+      "imageSrc": "history/codechef.png",
+      "site": "https://www.codechef.com/users/shiva51"
+    },
+    {
+      "role": "Expert",
+      "organisation": "Codeforces",
+      "endDate": "Present",
+      "experiences": ["Ranked Top 1000 in India"],
+      "imageSrc": "history/codeforces.png"
+    },
+    {
+      "role": "Knight",
+      "organisation": "Leetcode",
+      "endDate": "Present",
+      "experiences": ["Ranked Top 3% in the World"],
+      "imageSrc": "history/leetcode.png"
+    }
+]

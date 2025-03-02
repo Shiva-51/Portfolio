@@ -1,0 +1,56 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 75%;
+    height: 500px;
+    margin-left: 12.5%;
+    margin-top: 30px;
+    gap: 100px;
+    /* margin-bottom: 500px; */
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+    gap: 20px;
+}
+
+.imgContainer img {
+    flex: 0 0 auto;
+    width: 75%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imgContainer img:hover{
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 830px) {
+    .imgContainer {
+        flex-direction: column;
+        width:100%;
+        height: 100%;
+        justify-content: center;
+        padding-left: 15%;
+    }
+}
