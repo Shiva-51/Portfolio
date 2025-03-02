@@ -20,6 +20,10 @@
     "imageSrc": "skills/node.png"
   },
   {
+    "title": "C",
+    "imageSrc": "skills/C++.png"
+  },
+  {
     "title": "C++",
     "imageSrc": "skills/C++.png"
   },

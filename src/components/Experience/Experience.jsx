@@ -15,6 +15,7 @@ import cc from "/src/assets/history/codechef.png";
 import cf from "/src/assets/history/codeforces.png";
 import lc from "/src/assets/history/leetcode.png";
 import py from "/src/assets/skills/Python.png"
+import C from "/src/assets/skills/c.png"
 import styles from "./Experience.module.css";
 
 export const Experience = () => {
@@ -27,6 +28,7 @@ export const Experience = () => {
     "Flutter" : flutter,
     "Firebase" : firebase,
     "C++" : cpp,
+    "C" : C,
     "Python" : py,
     "Node" : node,
     "Codechef" : cc,

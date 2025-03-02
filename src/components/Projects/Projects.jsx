@@ -12,11 +12,11 @@ export const Projects = () => {
             
             <div className={styles.containerForImg}>
                 <div className={styles.imgContainer}>
-                    <img src={sample} className={styles.image}/>
+                    <a href="https://github.com/Shiva-51/MedGenie" target="_blank"><img src={sample} className={styles.image}/></a>
                     {/* <h2>MedGenie</h2> */}
                 </div>
                 <div className={styles.imgContainer}>
-                    <img src={sample} className={styles.image}/>
+                    <a><img src={sample} className={styles.image}/></a>
                     {/* <h2>MedGenie</h2> */}
                 </div>
             </div>

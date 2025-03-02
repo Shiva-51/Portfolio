@@ -22,22 +22,30 @@ export const About = () => {
             <li className={styles.aboutItem}>
               <img src={cursorIcon} alt= "cursorIcon" />
               <div className={styles.aboutItemText}>
-                <h3>Frontend Developer</h3>
-                <p>I'm a frontend Developer with experience and I develop Optimised Web pages.</p>
-              </div>
-            </li>
-            <li className={styles.aboutItem}>
-              <img src={serverIcon} alt= "serverIcon" />
-              <div className={styles.aboutItemText}>
-                <h3>Backend Developer</h3>
-                <p>I'm a Backend Developer with experience and I develop Optimised Web pages.</p>
+                <h3>Frontend Web Developer</h3>
+                <p>I'm a Frontend Developer, and a Web Performance Enthusiast. 
+                  <br></br>
+                  I specialize in crafting fast, accessible, and visually appealing web applications.
+                </p>
               </div>
             </li>
             <li className={styles.aboutItem}>
               <img src={uiIcon} alt= "uiIcon" />
               <div className={styles.aboutItemText}>
-                <h3>Ui Developer</h3>
-                <p>I'm a Ui Developer with experience and I develop Optimised Web pages.</p>
+                <h3>App Developer</h3>
+                <p>
+                  I design and develop mobile applications with a focus on performance and usability.Using Flutter and native technologies, I create cross-platform apps with smooth user experiences.
+                  I build scalable and efficient mobile solutions.
+                </p>
+              </div>
+            </li>
+            <li className={styles.aboutItem}>
+              <img src={serverIcon} alt= "serverIcon" />
+              <div className={styles.aboutItemText}>
+                <h3>Competitive Programmer</h3>
+                <p>I enjoy solving complex algorithmic problems and optimizing solutions for efficiency.
+                    I actively participate in coding contests and continuously improve my logical thinking skills.
+                </p>
               </div>
             </li>
           </ul>
