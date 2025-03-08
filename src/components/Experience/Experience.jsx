@@ -15,7 +15,8 @@ import cc from "/src/assets/history/codechef.png";
 import cf from "/src/assets/history/codeforces.png";
 import lc from "/src/assets/history/leetcode.png";
 import py from "/src/assets/skills/Python.png"
-import C from "/src/assets/skills/c.png"
+import C from "/src/assets/skills/c.png";
+import Tailwind from "/src/assets/skills/tailwind.png";
 import styles from "./Experience.module.css";
 
 export const Experience = () => {
@@ -23,6 +24,7 @@ export const Experience = () => {
   const imgData = {
     "HTML" : html,
     "CSS" : css,
+    "Tailwind" :Tailwind,
     "JavaScript" : javascript,
     "React" : reactjs,
     "Flutter" : flutter,
